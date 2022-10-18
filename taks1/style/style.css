@@ -1,5 +1,5 @@
 body {
-    padding: 0% 0%;
+    padding: 5% 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -162,6 +162,7 @@ ul {
 
 li {
     padding-left: 1.5em;
+    margin-top: 10px;
     list-style: none;
     background-image: var(--img);
     background-size: 1em;
