@@ -6,103 +6,76 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-
 <main class="main">
-    <section class="yandex_line">
+    <section class="search">
         <a href="https://yandex.ru"><img src="https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg"
-                                         class="image_logo_yandex"></a>
-        <form class="line">
-            <input class="input_line" placeholder="Найдётся всё">
-            <button class="button">Найти</button>
+                                         class="search__image"></a>
+        <form class="search__form">
+            <input type="search" class="search__input" placeholder="Найдется всё">
+            <button class="search__button">Найти</button>
         </form>
     </section>
-    <section class="content">
-        <section class="error404">
-            <h1 class="h1__text_404">Ошибка 404. Нет такой страницы</h1>
-            <h1 class="h1__text_404_2">Если вы считаете, что страницы нет по нашей вине, <a class="a__write_to_us"
-                                                                                            href="#">напишите нам</a>.
-            </h1>
 
-            <ul class="services__ul">
-                <li class="services__li"
-                    style="--img: url(https://yastatic.net/s3/home/services/all/svg/praktikum0.svg)">
-                    <a href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main/"
-                    >
-                        Практикум</a> — <a
-                        href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main&utm_content=stat-rasrabotchikom/"
-                        style="text-decoration: none;
-                                    color: rgb(0, 0, 0);">
-                    стать разработчиком</a>
-                </li>
-                <li class="services__li" style="--img: url(https://yastatic.net/s3/home/services/all/svg/plus1.svg)">
-                    <a href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main/"
-                    >
-                        Плюс</a> — <a
-                        href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main&utm_content=stat-rasrabotchikom/"
-                        style="text-decoration: none;
-                                    color: rgb(0, 0, 0);">
-                    для самых близких</a>
-                </li>
-                <li class="services__li"
-                    style="--img: url(https://yastatic.net/s3/home/services/all/svg/games_new_v2.svg)">
-                    <a href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main/"
-                    >
-                        Игры</a> — <a
-                        href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main&utm_content=stat-rasrabotchikom/"
-                        style="text-decoration: none;
-                                    color: rgb(0, 0, 0);">
-                    дома не скучно</a>
-                </li>
-                <li class="services__li" style="--img: url(https://yastatic.net/s3/home/services/all/svg/autoru0.svg)">
-                    <a href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main/"
-                    >
-                        Авто.ру</a> — <a
-                        href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main&utm_content=stat-rasrabotchikom/"
-                        style="text-decoration: none;
-                                    color: rgb(0, 0, 0);">
-                    что нового в мире авто</a>
-                </li>
-                <li class="services__li" style="--img: url(https://yastatic.net/s3/home/services/all/svg/toloka1.svg)">
-                    <a href="https://toloka.yandex.ru/?utm_source=yamain&utm_medium=popular&utm_campaign=toloka"
-                    >
-                        Толока</a> — <a
-                        href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main&utm_content=stat-rasrabotchikom/"
-                        style="text-decoration: none;
-                                    color: rgb(0, 0, 0);;">
-                    удобный заработок</a>
-                </li>
-                <li class="services__li" style="--img: url(https://yastatic.net/s3/home/services/all/svg/taxi0.svg)">
-                    <a href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main/"
-                    >
-                        Такси</a> — <a
-                        href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main&utm_content=stat-rasrabotchikom/"
-                        style="text-decoration: none;
-                                    color: rgb(0, 0, 0);;">
-                    заказать доставку</a>
-                </li>
-                <li class="services__li"
-                    style="--img: url(https://yastatic.net/s3/home/services/all/svg/market_new2022.svg)">
-                    <a href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main/"
-                    >
-                        Маркет</a> — <a
-                        href="https://practicum.yandex.ru/?utm_source=yandex&utm_medium=morda&utm_campaign=main&utm_content=stat-rasrabotchikom/"
-                        style="text-decoration: none;
-                                    color: rgb(0, 0, 0);;">
-                    люстры и светильники</a>
-                </li>
-            </ul>
-        </section>
+    <section class="error">
+        <h1 class="error__title">Ошибка 404. Нет такой страницы</h1>
+        <p class="error__text">Если вы считаете, что страницы нет по нашей вине,
+            <a href="https://yandex.ru/support/not-found/?form1969-url404=http%3A%2F%2Fyandex.ru%2F404&form1969-fromurl404="
+               class="error__link">напишите нам</a>.</p>
     </section>
-
-</main>
-
-<footer class="footer">
-    <ul class="footer__ul">
-        <li class="footer__li"><a href="https://yandex.ru/company/" class="footer__link">Компания</a></li>
-        <li class="footer__li"><a href="https://yandex.com/company/" class="footer__link">About</a></li>
-        <li class="footer__li"><a href="https://ya.ru/" class="footer__link">&#169Яндекс</a></li>
-    </ul>
-</footer>
-
+    <section class="list">
+        <div class="list__col">
+            <div class="list__element">
+                <img class="list__element-img" src="https://yastatic.net/s3/home/services/all/svg/praktikum0.svg">
+                <a href="https://market.yandex.ru/?clid=568&utm_source=face_title&utm_medium=cpc&utm_campaign=ft_desktop_smartphone_xiaomi_all"
+                class="list__link">
+                    Практикум</a><p> — стать разработчиком</p>
+            </div>
+            <div class="list__element">
+                <img class="list__element-img" src="https://yastatic.net/s3/home/services/all/svg/plus1.svg">
+                <a href="https://market.yandex.ru/?clid=568&utm_source=face_title&utm_medium=cpc&utm_campaign=ft_desktop_smartphone_xiaomi_all"
+                class="list__link">
+                    Плюс</a><p> — теперь и для семьи</p>
+            </div>
+            <div class="list__element">
+                <img class="list__element-img" src="https://yastatic.net/s3/home/services/all/svg/games_new_v2.svg">
+                <a href="https://market.yandex.ru/?clid=568&utm_source=face_title&utm_medium=cpc&utm_campaign=ft_desktop_smartphone_xiaomi_all"
+                class="list__link">
+                    Игры</a><p> — дома не скучно</p>
+            </div>
+            <div class="list__element">
+                <img class="list__element-img" src="https://yastatic.net/s3/home/services/all/svg/autoru0.svg">
+                <a href="https://market.yandex.ru/?clid=568&utm_source=face_title&utm_medium=cpc&utm_campaign=ft_desktop_smartphone_xiaomi_all"
+                class="list__link">
+                    Авто.ру</a><p> — что нового в мире авто</p>
+            </div>
+        </div>
+        <div class="list__col">
+            <div class="list__element">
+                <img class="list__element-img" src="https://yastatic.net/s3/home/services/all/svg/toloka1.svg">
+                <a href="https://market.yandex.ru/?clid=568&utm_source=face_title&utm_medium=cpc&utm_campaign=ft_desktop_smartphone_xiaomi_all"
+                class="list__link">
+                    Толока</a><p> — удобный заработок</p>
+            </div>
+            <div class="list__element">
+                <img class="list__element-img" src="https://yastatic.net/s3/home/services/all/svg/taxi0.svg">
+                <a href="https://market.yandex.ru/?clid=568&utm_source=face_title&utm_medium=cpc&utm_campaign=ft_desktop_smartphone_xiaomi_all"
+                class="list__link">
+                    Такси</a><p> — заказать доставку</p>
+            </div>
+            <div class="list__element">
+                <img class="list__element-img" src="https://yastatic.net/s3/home/services/all/svg/market_new2022.svg">
+                <a href="https://market.yandex.ru/?clid=568&utm_source=face_title&utm_medium=cpc&utm_campaign=ft_desktop_smartphone_xiaomi_all"
+                class="list__link">
+                    Маркет</a><p> — люстры и светильники</p>
+            </div>
+        </div>
+    </section></main>
+    <footer class="footer">
+        <ul class="footer__ul">
+            <li class="footer__li"><a href="https://yandex.ru/company/" class="footer__link">Компания</a></li>
+            <li class="footer__li"><a href="https://yandex.com/company/" class="footer__link">About</a></li>
+            <li class="footer__li"><a href="https://ya.ru/" class="footer__link">&#169Яндекс</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
