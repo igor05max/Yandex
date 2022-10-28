@@ -136,4 +136,16 @@ li {
 		grid-template-columns: 400px;
 		justify-items: start;
 	}
+   .error__title {
+     font-size: 15px;
+   }
+   .error__text {
+       font-size: 10px;
+   }
+  .footer__link {
+    font-size: 10px;
+  }
+  .list__element {
+    font-size: 12px;
+  }
 }
